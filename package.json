@@ -4,8 +4,8 @@
   "description": "Wrappers around node:fs with proper error stack support",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/CodeWitchBella/isbl-fs.git",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/CodeWitchBella/isbl-fs.git"
   },
   "author": "Isabella Skořepová <isabella@skorepova.info>",
   "license": "MIT",
@@ -13,5 +13,9 @@
   "devDependencies": {
     "@isbl/publisher": "^0.7.1",
     "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "prepublishOnly": "isbl-publisher prepublishOnly",
+    "publish:npm": "isbl-publisher publish --no-draft"
   }
 }
