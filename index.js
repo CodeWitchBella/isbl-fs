@@ -10,7 +10,18 @@ export const readFileSync = wrapSync("readFileSync")
 export const mkdir = wrap("mkdir")
 export const copyFile = wrap("copyFile")
 export const rm = wrap("rm")
-export default { readFile, writeFile, readFileSync, mkdir, copyFile, rm }
+export const open = wrap("open")
+export const opendir = wrap("opendir")
+export default {
+  readFile,
+  writeFile,
+  readFileSync,
+  mkdir,
+  copyFile,
+  rm,
+  open,
+  opendir,
+}
 
 /** @type {<M extends keyof typeof fsPromises>(method: M) => fsPromises[M]} */
 function wrap(method) {
