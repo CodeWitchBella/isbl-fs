@@ -32,4 +32,4 @@ await readFile(...)
 
 ## Available functions
 
-See start of `index.mjs` file. It lists all the exports.
+See start of `index.js` file. It lists all the exports.
