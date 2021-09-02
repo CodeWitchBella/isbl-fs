@@ -8,5 +8,5 @@
     "strict": false,
     "skipLibCheck": false
   },
-  "include": ["index.js"]
+  "include": ["index.js", "sync.js"]
 }
