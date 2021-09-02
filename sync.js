@@ -1,8 +1,10 @@
 import * as fsSync from "fs"
 
+export const readdirSync = wrapSync("readdirSync")
 export const readFileSync = wrapSync("readFileSync")
 export const writeFileSync = wrapSync("writeFileSync")
 export default {
+  readdirSync,
   readFileSync,
   writeFileSync,
 }
