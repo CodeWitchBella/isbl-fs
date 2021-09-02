@@ -7,20 +7,24 @@ import * as fsSync from "fs"
 export const readFile = wrap("readFile")
 export const writeFile = wrap("writeFile")
 export const readFileSync = wrapSync("readFileSync")
+export const writeFileSync = wrapSync("writeFileSync")
 export const mkdir = wrap("mkdir")
 export const copyFile = wrap("copyFile")
 export const rm = wrap("rm")
 export const open = wrap("open")
 export const opendir = wrap("opendir")
+export const readdir = wrap("readdir")
 export default {
   readFile,
   writeFile,
   readFileSync,
+  writeFileSync,
   mkdir,
   copyFile,
   rm,
   open,
   opendir,
+  readdir,
 }
 
 /** @type {<M extends keyof typeof fsPromises>(method: M) => fsPromises[M]} */
