@@ -1,5 +1,11 @@
 # @isbl/fs
 
+[![MIT License](https://img.shields.io/npm/l/@isbl/fs?style=flat)](https://github.com/CodeWitchBella/isbl-fs/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@isbl/fs?style=flat)](https://www.npmjs.com/package/@isbl/fs)
+[![dependencies](https://img.shields.io/librariesio/release/npm/@isbl/fs?style=flat)](https://github.com/CodeWitchBella/isbl-fs/blob/main/package.json)
+![GitHub last commit](https://img.shields.io/github/last-commit/CodeWitchBella/isbl-fs?style=flat)
+[![GitHub Release Date](https://img.shields.io/github/release-date/CodeWitchBella/isbl-fs?style=flat)](https://github.com/CodeWitchBella/isbl-fs/releases)
+
 Wraps `node:fs/promises` and sync functions from `node:fs` to add proper async
 error stack.
 
