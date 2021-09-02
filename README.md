@@ -30,6 +30,18 @@ import { readFile } from '@isbl/fs'
 await readFile(...)
 ```
 
+To use `*Sync` functions import them from `@isbl/fs/sync`
+
+```ts
+import fs from '@isbl/fs/sync'
+fs.readFileSync(...)
+
+// or
+
+import { readFileSync } from '@isbl/fs/sync'
+readFileSync(...)
+```
+
 ## Available functions
 
-See start of `index.js` file. It lists all the exports.
+See start of `index.js` and `sync.js` files. They list all the exports.

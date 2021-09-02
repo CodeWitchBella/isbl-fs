@@ -1,12 +1,15 @@
 {
   "name": "@isbl/fs",
-  "version": "0.2.0",
+  "version": "0.3.0-beta.0",
   "description": "Wrappers around node:fs with proper error stack support",
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeWitchBella/isbl-fs.git"
   },
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./sync": "./sync.j"
+  },
   "types": "./index.d.ts",
   "author": "Isabella Skořepová <isabella@skorepova.info>",
   "license": "MIT",
