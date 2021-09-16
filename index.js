@@ -3,6 +3,7 @@ import * as fsPromises from "fs/promises"
 // Adding new function:
 // 1. add `export const ...` here
 // 2. add it to `export default { ... }`
+// 3. add it to `index.d.ts` (twice)
 export const access = wrap("access")
 export const appendFile = wrap("appendFile")
 export const chmod = wrap("chmod")

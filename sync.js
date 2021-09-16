@@ -1,5 +1,9 @@
 import * as fsSync from "fs"
 
+// Adding new function:
+// 1. add `export const ...` here
+// 2. add it to `export default { ... }`
+// 3. add it to `sync.d.ts` (twice)
 export const readdirSync = wrapSync("readdirSync")
 export const readFileSync = wrapSync("readFileSync")
 export const writeFileSync = wrapSync("writeFileSync")

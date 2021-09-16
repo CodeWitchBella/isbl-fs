@@ -1,6 +1,6 @@
 {
   "name": "@isbl/fs",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Wrappers around node:fs with proper error stack support",
   "repository": {
     "type": "git",

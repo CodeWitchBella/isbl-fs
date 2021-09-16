@@ -3,8 +3,8 @@
     "target": "es2021",
     "module": "ES2020",
     "allowJs": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
+    "declaration": false,
+    "noEmit": true,
     "strict": false,
     "skipLibCheck": false
   },
